@@ -446,8 +446,10 @@ table tbody tr td .testing img {
 /***********************************************************/
 .taxBill {
   display: block;
-  width: 553px;
-  margin: auto;
+  /* width: 553px; */
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #0d99ff;
 }
 .taxBill .head img {
   display: block;
@@ -781,7 +783,7 @@ table tbody tr td .testing img {
   text-align: center !important;
   justify-content: space-between;
   margin: auto;
-  width: 269px;
+  width: 330px;
   background: #2c2c2c;
 }
 .Total_including_tax .price p,
