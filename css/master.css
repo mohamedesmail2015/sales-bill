@@ -1,0 +1,807 @@
+@import url("https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+/* Start Global Rules */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:root {
+  --main-color: #6d7d93;
+  --main-transition: 0.3s;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-family: "Almarai", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+ul {
+  list-style: none;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+/* End Global Rules */
+
+/***********************************************************/
+/****************** Start Sales Bill PAGE *****************/
+/***********************************************************/
+
+/***********************************************************/
+/****************** Start Sales Bill PAGE *****************/
+/***********************************************************/
+
+.sales_bill {
+  display: flex;
+  flex-wrap: wrap !important;
+  text-align: center;
+  justify-content: space-between;
+  background: #f5f5f7;
+  padding: 15px !important;
+  overflow: hidden !important;
+}
+
+.sales_bill .links {
+  width: 50%;
+}
+
+.sales_bill .links .controlBoard {
+  display: block;
+  width: 65% !important;
+  /* height: 52px !important; */
+  padding: 10px 5px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  border: 1px;
+  color: #ffffff;
+  border: 1px solid #cbcbcb;
+  background: #09ad95;
+}
+.sales_bill .links ul {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: space-between;
+  padding: 10px !important;
+  margin: 10px !important;
+  width: 65% !important;
+}
+
+.sales_bill .discount {
+  display: block;
+  height: 40px;
+  padding: 5px 20px !important;
+  border-radius: 8px;
+  border: 1px;
+  border: 1px solid #cbcbcb;
+  background: #cbcbcb;
+  padding: 5px;
+  margin: 10px;
+}
+.sales_bill .discount img {
+  width: 17.67px;
+  height: 18.6px;
+  top: 83.23px;
+  left: 180.26px;
+}
+.sales_bill .discount span {
+  /* font-family: Cairo; */
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: right;
+  color: #575757;
+}
+
+.sales_bill .salesStatus {
+  display: block;
+  height: 40px;
+  padding: 5px 20px !important;
+  border-radius: 8px;
+  border: 1px;
+  border: 1px solid #cbcbcb;
+  background: #cbcbcb;
+  padding: 5px;
+  margin: 10px;
+}
+.sales_bill .salesStatus img {
+  width: 17.67px;
+  height: 18.6px;
+  top: 83.23px;
+  left: 180.26px;
+}
+.sales_bill .salesStatus span {
+  /* font-family: Cairo; */
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: right;
+  color: #575757;
+}
+.sales_bill .draft {
+  display: block;
+  height: 40px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  background: #0066cc;
+  margin: 10px;
+}
+.sales_bill .draft img {
+  width: 20px;
+  height: 20px;
+}
+
+.sales_bill .research {
+  text-align: end;
+  justify-content: end;
+  width: 50%;
+}
+.sales_bill .research .title {
+  padding: 0 12px !important;
+  /* font-family: Cairo; */
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 45px;
+  color: #0066cc;
+}
+.sales_bill .research .input_search {
+  display: flex;
+  text-align: end !important;
+  justify-content: space-between;
+  width: 99%;
+  height: 43px;
+  padding: 5px 12px;
+  border-radius: 8px;
+  background: #ffffff;
+  border: 1px solid #eaeaea;
+}
+.sales_bill .research .input_search input {
+  text-align: end;
+  justify-content: start;
+  flex: 1;
+  border: none;
+  outline: none;
+}
+.sales_bill .research .input_search img {
+  display: block;
+  margin: auto;
+  width: 17px;
+  height: 17px;
+  color: #6d7d93;
+}
+.sales_bill .research ul {
+  padding: 12px !important;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: end;
+}
+.sales_bill .research ul a {
+  /* font-family: Cairo; */
+  padding: 12px 0 0 12px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  color: #6d7d93;
+}
+
+@media (max-width: 1200px) {
+  .sales_bill .links {
+    width: 100%;
+  }
+
+  .sales_bill .research {
+    text-align: end;
+    justify-content: end;
+    width: 100%;
+  }
+}
+
+/* Start Customers 2 */
+.customers {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: end;
+  padding: 7px;
+  margin: 7px;
+}
+.customers .customers-select {
+  padding: 7px;
+  margin: 7px;
+}
+.customers .customers-select p {
+  /* font-family: Cairo; */
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: right;
+  color: #231f20;
+  padding: 0 0 3px;
+  margin: 0;
+  text-align: end;
+}
+.customers .customers-select select {
+  text-align: start;
+  padding: 5px 10px !important;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  width: 250px;
+  height: 43px;
+  background: linear-gradient(0deg, #eaeaea, #eaeaea),
+    linear-gradient(0deg, #f5f5f7, #f5f5f7);
+  border: 1px solid #eaeaea;
+}
+.customers .research {
+  display: flex;
+  text-align: start;
+  padding: 5px 10px !important;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  width: 250px;
+  height: 43px;
+  margin-top: 35px !important;
+  background: linear-gradient(0deg, #eaeaea, #eaeaea),
+    linear-gradient(0deg, #f5f5f7, #f5f5f7);
+  border: 1px solid #eaeaea;
+}
+.customers .research img {
+  display: block;
+  margin: auto;
+  width: 17px;
+  height: 17px;
+  color: #6d7d93;
+}
+
+.customers .research input {
+  text-align: end;
+  justify-content: start;
+  flex: 1 !important;
+  border: none;
+  outline: none;
+  background: linear-gradient(0deg, #eaeaea, #eaeaea),
+    linear-gradient(0deg, #f5f5f7, #f5f5f7);
+}
+.customers .customers-select .customers_date {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  padding: 5px 10px;
+  border-radius: 8px;
+  background: #ffffff;
+  border: 1px solid #eaeaea;
+  width: 250px;
+}
+
+.customers .customers-select .customers_date input {
+  flex: 1;
+  outline: none;
+  border: none;
+}
+.customers .customers-select .customers_date img {
+  width: 33px;
+  height: 33px;
+  margin: auto 10px;
+}
+
+/* End Customers 2 */
+
+hr {
+  width: 98%;
+  height: 3px;
+  margin: auto !important;
+  border: 1.5px;
+  color: #dadff8;
+  border: 1.5px solid #dadff8;
+}
+
+/* Start table */
+table {
+  text-align: end;
+  justify-content: end;
+  overflow: hidden !important;
+}
+table thead tr th {
+  /* font-family: Cairo; */
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: right;
+  color: #0066cc;
+  background: #eeeeee !important;
+}
+
+.Basket {
+  display: block;
+  width: 34px;
+  height: 34px;
+  border-radius: 8px;
+  margin: auto;
+  text-align: center;
+  justify-content: center;
+  background: #ff4e42;
+}
+
+table tbody tr td input {
+  text-align: end;
+  padding: 0 8px;
+  outline: none;
+  border: none;
+  /* width: 204px; */
+  height: 34px;
+  border-radius: 8px;
+  border: 1px solid #eaeaea;
+}
+table tbody tr td .Unit {
+  display: block;
+  text-align: center;
+  justify-content: center;
+  margin: auto;
+  width: 73px;
+  height: 34px;
+  border-radius: 8px;
+  background: linear-gradient(0deg, #eaeaea, #eaeaea),
+    linear-gradient(0deg, #f5f5f7, #f5f5f7);
+  border: 1px solid #eaeaea;
+}
+
+table tbody tr td .Quantity {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+table tbody tr td .Quantity .negative {
+  display: block;
+  text-align: center;
+  justify-content: center;
+  width: 34px;
+  height: 34px;
+  top: 423px;
+  left: 768px;
+  color: #ffffff;
+  border-radius: 8px;
+  background: #0066cc;
+  outline: none;
+  border: none;
+}
+table tbody tr td .Quantity .number {
+  display: block;
+  text-align: center;
+  justify-content: center;
+  width: 34px;
+  height: 34px;
+  top: 423px;
+  left: 768px;
+  /* font-family: Cairo; */
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 27px;
+  letter-spacing: 0em;
+  background: #ffffff;
+  color: #231f20;
+}
+table tbody tr td .Quantity .positive {
+  display: block;
+  text-align: center;
+  justify-content: center;
+  width: 34px;
+  height: 34px;
+  top: 423px;
+  left: 768px;
+  border-radius: 8px;
+  color: #ffffff;
+  background: #0066cc;
+  outline: none;
+  border: none;
+}
+table tbody tr td .testing {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+table tbody tr td .testing a {
+  width: 150px;
+  height: 34px;
+  border-radius: 8px;
+  border: 1px;
+  color: #231f20;
+  background: linear-gradient(0deg, #eaeaea, #eaeaea),
+    linear-gradient(0deg, #f5f5f7, #f5f5f7);
+  border: 1px solid #eaeaea;
+}
+table tbody tr td .testing img {
+  margin-left: 3px;
+  width: 34px;
+  height: 34px;
+  top: 418px;
+  left: 1537px;
+  border-radius: 8px;
+}
+
+/* End table */
+
+/***********************************************************/
+/****************** End Sales Bill PAGE ********************/
+/***********************************************************/
+
+/***********************************************************/
+/****************** Start Tax Bill PAGE *******************/
+/***********************************************************/
+.taxBill {
+  display: block;
+  width: 553px;
+  margin: auto;
+}
+.taxBill .head img {
+  display: block;
+  text-align: center;
+  width: 108.88px;
+  height: 31.74px;
+  margin: 15px auto;
+}
+.taxBill .head h2 {
+  /* font-family: Cairo; */
+  margin: 15px auto;
+  text-align: center !important;
+  justify-content: center !important;
+  font-size: 25px;
+  font-weight: 900;
+  line-height: 19px;
+  letter-spacing: 0em;
+  color: #231f20;
+}
+.taxBill .head .title {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: space-between;
+}
+.taxBill .head .title .title_en {
+  text-align: center;
+  justify-content: center;
+}
+.taxBill .head .title .title_en h2 {
+  text-align: start !important;
+  justify-content: start !important;
+  /* font-family: Cairo; */
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #0066cc;
+}
+.taxBill .head .title .title_en p {
+  text-align: start !important;
+  justify-content: start !important;
+  /* font-family: Cairo; */
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: right;
+  color: #231f20;
+}
+.taxBill .head .title .title_ar {
+  text-align: center;
+  justify-content: center;
+}
+
+.taxBill .head .title .title_ar h2 {
+  text-align: end !important;
+  justify-content: end !important;
+  /* font-family: Cairo; */
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #0066cc;
+}
+.taxBill .head .title .title_ar p {
+  text-align: end !important;
+  justify-content: end !important;
+  /* font-family: Cairo; */
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: right;
+  color: #231f20;
+}
+
+.invoice_to {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: space-between;
+}
+.invoice_to .Date_Number {
+  background: #dbf3fc;
+  padding: 5px;
+  margin: 5px 0;
+  border-radius: 5px;
+  width: 269px;
+}
+.invoice_to .Date_Number .invoice_Number {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: space-between;
+}
+.invoice_to .Date_Number .invoice_Number p {
+  margin: 7px;
+  /* font-family: Cairo; */
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: right;
+  color: #0066cc;
+}
+.invoice_to .Date_Number .invoice_Number .Num {
+  margin: 7px;
+  /* font-family: Cairo; */
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: right;
+  color: #6d7d93;
+}
+
+.invoice_to .to {
+  padding: 5px;
+  margin: 5px 0;
+  width: 269px;
+  border-radius: 5px;
+  border: 2px;
+  background: linear-gradient(0deg, #eaeaea, #eaeaea),
+    linear-gradient(0deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1));
+  border: 2px solid #eaeaea;
+}
+.invoice_to .to p {
+  /* font-family: Cairo; */
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: right;
+  color: #0066cc;
+}
+
+/* Start table */
+.taxBill table {
+  border-radius: 7px;
+
+  text-align: center;
+  justify-content: center;
+  overflow: hidden !important;
+}
+
+.taxBill table thead tr th {
+  font-family: Cairo;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: right;
+  color: #ffffff;
+  background: #0066cc !important;
+}
+.taxBill table thead tr th p {
+  font-family: Cairo;
+  padding: 0;
+  margin: 2px 0;
+  text-align: center !important;
+  justify-content: center !important;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: right;
+  color: #ffffff;
+  background: #0066cc !important;
+}
+
+/* total_includes */
+.total_includes,
+.excluding,
+.total_value_plus,
+.includes {
+  padding: 5px 0;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: space-between;
+}
+.total_includes img {
+  width: 120px;
+  height: 120px;
+}
+
+.excluding,
+.total_value_plus,
+.includes {
+  width: 296px;
+}
+.excluding p,
+.total_value_plus p {
+  /* font-family: Cairo; */
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 19px;
+  letter-spacing: 0em;
+  color: #231f20;
+}
+
+.includes p {
+  /* font-family: Cairo; */
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 19px;
+  letter-spacing: 0em;
+  color: #ff4e42;
+}
+
+.Additional_details h2 {
+  /* font-family: Cairo; */
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: end;
+  color: #231f20;
+}
+.Additional_details p {
+  /* font-family: Cairo; */
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: end;
+  color: #6d7d93;
+}
+
+/***********************************************************/
+/****************** End Tax Bill PAGE *******************/
+/***********************************************************/
+/***********************************************************/
+/****************** Start Thermal Bill PAGE ****************/
+/***********************************************************/
+
+.thermalBill {
+  /* padding: 20px 0; */
+  display: block;
+  width: 350px;
+  margin: 5px auto;
+  border: 1px solid #0d99ff;
+}
+.thermalBill .head img {
+  display: block;
+  text-align: center;
+  width: 108.88px;
+  height: 31.74px;
+  margin: 15px auto;
+}
+.thermalBill .head h2 {
+  margin: 10px auto;
+  width: 236px;
+  text-align: center !important;
+  justify-content: center !important;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: right;
+  color: #5a5a5a;
+}
+.thermalBill .head p {
+  margin: 10px auto;
+  text-align: center !important;
+  justify-content: center !important;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  letter-spacing: 0em;
+  color: #231f20;
+}
+.thermalBill .head .Line {
+  width: 259px;
+  height: 4px;
+  padding: 1px;
+  margin: 1px auto;
+}
+
+.thermalBill .head .Date_Branch {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: space-between;
+}
+.thermalBill .head .Date_Branch p {
+  /* font-family: Cairo; */
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  letter-spacing: 0em;
+  color: #5a5a5a;
+}
+.thermalBill .head .Date_Branch .Num {
+  /* font-family: Cairo; */
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: right;
+
+  color: #231f20;
+}
+
+.thermalBill .head .Total_Item_Qty {
+  padding: 7px;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center !important;
+  justify-content: space-between;
+}
+
+.thermalBill .head .Total_Item_Qty p {
+  text-align: end !important;
+  padding: 0 10px;
+  margin: 0;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  letter-spacing: 0em;
+  color: #5a5a5a;
+}
+
+.Total_including_tax {
+  padding: 7px;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center !important;
+  justify-content: space-between;
+  margin: auto;
+  width: 269px;
+  background: #2c2c2c;
+}
+.Total_including_tax .price p,
+.Total_including_tax .Total p {
+  padding: 2px 7px;
+  margin: 0;
+  text-align: end !important;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 19px;
+  letter-spacing: 0em;
+  color: #ffffff;
+}
+.Total_including_tax .price p {
+  padding: 13px 7px 0 7px;
+}
+
+.thermalBill .head .thermalBill {
+  width: 110px;
+  height: 120px;
+  top: 711px;
+  left: 102px;
+}

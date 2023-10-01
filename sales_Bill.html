@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="css/fontawesome.min.css" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/master.css" />
+    <!-- <link rel="stylesheet" href="css/master_rtl.css" /> -->
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- <link rel="stylesheet" href="css/bootstrap.rtl.min.css" /> -->
+
+    <title>Sales Bill</title>
+  </head>
+
+  <body>
+    <!-- Start Header -->
+    <section class="sales_bill">
+      <div class="links">
+        <a href="#" class="controlBoard">
+          <i class="fa-regular fa-star"></i> لوحه التحكم /
+          <i class="fa-regular fa-star"></i> المبيعات /
+          <i class="fa-regular fa-star"></i> انشاء فاتوره مبيعات
+        </a>
+
+        <ul>
+          <li>
+            <a href="#" class="draft">
+              <img src="imgs/salesBill/Vector2.png" alt="المسوده" />
+            </a>
+          </li>
+          <li>
+            <a href="#" class="salesStatus">
+              <span>حالة المبيعات</span>
+              <img src="imgs/salesBill/vector1.png" alt="حالة المبيعات" />
+            </a>
+          </li>
+          <li>
+            <a href="#" class="discount">
+              <span> اضافة خصم </span>
+              <img src="imgs/salesBill/Vector.png" alt="اضافة خصم" />
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="research">
+        <p class="title">إنشاء فاتوره مبيعات</p>
+
+        <div class="input_search">
+          <img src="imgs/salesBill/research.png" alt="research" />
+          <input type="text" placeholder="ابحث عن فاتورة..." />
+        </div>
+
+        <ul>
+          <li><a href="#">إضافة الى المسودة</a></li>
+          <li><a href="#">طباعة حرارية</a></li>
+          <li><a href="#">طباعة A4</a></li>
+          <li><a href="#">حفظ الملف</a></li>
+          <li><a href="#">فاتورة أولية</a></li>
+          <li><a href="#">معاينة الفاتورة</a></li>
+        </ul>
+      </div>
+    </section>
+    <!-- End Header -->
+
+    <!-- Start Customers 2 -->
+    <section class="customers">
+      <div class="customers-select">
+        <p>العملاء</p>
+        <select>
+          <option selected>الفرع الرئيسي</option>
+          <option value="1">One</option>
+          <option value="2">Two</option>
+          <option value="3">Three</option>
+        </select>
+      </div>
+
+      <div class="customers-select">
+        <p>تاريخ استحقاق الفاتورة</p>
+        <div class="customers_date">
+          <input type="text" placeholder="10/08/2023" />
+          <img src="imgs/salesBill/uiw_date.png" alt="uiw_date" />
+        </div>
+      </div>
+
+      <div class="customers-select">
+        <p>تاريخ استحقاق الفاتورة</p>
+        <div class="customers_date">
+          <input type="text" placeholder="10/08/2023" />
+          <img src="imgs/salesBill/uiw_date.png" alt="uiw_date" />
+        </div>
+      </div>
+
+      <div class="customers-select">
+        <p>العملاء</p>
+        <select>
+          <option selected>اختر العميل</option>
+          <option value="1">One</option>
+          <option value="2">Two</option>
+          <option value="3">Three</option>
+        </select>
+      </div>
+    </section>
+    <!-- End Customers 2 -->
+
+    <hr />
+
+    <!-- Start Customers 2 -->
+    <section class="customers">
+      <div class="research">
+        <img src="imgs/salesBill/research.png" alt="research" />
+        <input type="text" placeholder="ابحث عن منتجات..." />
+      </div>
+
+      <div class="customers-select">
+        <p>المنتجات</p>
+        <select>
+          <option selected>اختر المنتج</option>
+          <option value="1">One</option>
+          <option value="2">Two</option>
+          <option value="3">Three</option>
+        </select>
+      </div>
+
+      <div class="customers-select">
+        <p>الفئة الفرعية</p>
+        <select>
+          <option selected>اختر الفئة</option>
+          <option value="1">One</option>
+          <option value="2">Two</option>
+          <option value="3">Three</option>
+        </select>
+      </div>
+
+      <div class="customers-select">
+        <p>الفئات</p>
+        <select>
+          <option selected>اختر الفئة</option>
+          <option value="1">One</option>
+          <option value="2">Two</option>
+          <option value="3">Three</option>
+        </select>
+      </div>
+    </section>
+    <!-- End Customers 2 -->
+
+    <!-- Start table -->
+
+    <table class="table table-bordered">
+      <thead>
+        <tr>
+          <th scope="col">حذف</th>
+          <th scope="col">الإجمالى شامل الضريبة المضافة</th>
+          <th scope="col">الضريبة نسبة الضريبة</th>
+          <th scope="col">الخصم</th>
+          <th scope="col">الوحدة</th>
+          <th scope="col">الكمية</th>
+          <th scope="col">السعر</th>
+          <th scope="col">الوصف</th>
+          <th scope="col">اسم المنتج</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <th scope="row">
+            <a href="#" class="Basket">
+              <img src="imgs/salesBill/Basket.png" alt="" />
+            </a>
+          </th>
+          <td>
+            <input type="text" placeholder="اكتب هنا..." />
+          </td>
+          <td>
+            <input type="text" placeholder="اكتب هنا..." />
+          </td>
+          <td>
+            <input type="text" placeholder="اكتب هنا..." />
+          </td>
+          <td>
+            <div class="Unit">لايوجد</div>
+          </td>
+          <td>
+            <div class="Quantity">
+              <button class="negative">-</button>
+              <span class="number">1</span>
+              <button class="positive">+</button>
+            </div>
+          </td>
+          <td>
+            <input type="text" placeholder="اكتب هنا..." />
+          </td>
+          <td>
+            <input type="text" placeholder="اكتب هنا..." />
+          </td>
+          <td>
+            <div class="testing">
+              <a href="#">testing prouct</a>
+              <img src="imgs/salesBill/Rectangle39833.png" alt="" />
+            </div>
+          </td>
+        </tr>
+
+        <tr>
+          <th scope="row">
+            <a href="#" class="Basket">
+              <img src="imgs/salesBill/Basket.png" alt="" />
+            </a>
+          </th>
+          <td>
+            <input type="text" placeholder="اكتب هنا..." />
+          </td>
+          <td>
+            <input type="text" placeholder="اكتب هنا..." />
+          </td>
+          <td>
+            <input type="text" placeholder="اكتب هنا..." />
+          </td>
+          <td>
+            <div class="Unit">لايوجد</div>
+          </td>
+          <td>
+            <div class="Quantity">
+              <button class="negative">-</button>
+              <span class="number">1</span>
+              <button class="positive">+</button>
+            </div>
+          </td>
+          <td>
+            <input type="text" placeholder="اكتب هنا..." />
+          </td>
+          <td>
+            <input type="text" placeholder="اكتب هنا..." />
+          </td>
+          <td>
+            <div class="testing">
+              <a href="#">testing prouct</a>
+              <img src="imgs/salesBill/Rectangle39833.png" alt="" />
+            </div>
+          </td>
+        </tr>
+
+        <tr>
+          <th scope="row">
+            <a href="#" class="Basket">
+              <img src="imgs/salesBill/Basket.png" alt="" />
+            </a>
+          </th>
+          <td>
+            <input type="text" placeholder="اكتب هنا..." />
+          </td>
+          <td>
+            <input type="text" placeholder="اكتب هنا..." />
+          </td>
+          <td>
+            <input type="text" placeholder="اكتب هنا..." />
+          </td>
+          <td>
+            <div class="Unit">لايوجد</div>
+          </td>
+
+          <td>
+            <div class="Quantity">
+              <button class="negative">-</button>
+              <span class="number">1</span>
+              <button class="positive">+</button>
+            </div>
+          </td>
+          <td>
+            <input type="text" placeholder="اكتب هنا..." />
+          </td>
+          <td>
+            <input type="text" placeholder="اكتب هنا..." />
+          </td>
+          <td>
+            <div class="testing">
+              <a href="#">testing prouct</a>
+              <img src="imgs/salesBill/Rectangle39833.png" alt="" />
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <!-- End table -->
+
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
