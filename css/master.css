@@ -54,7 +54,7 @@ ul {
   width: 50%;
 }
 .sales_bill .research .title {
-  padding: 0 12px !important;
+  padding: 0 10px !important;
   font-size: 24px;
   font-weight: 700;
   line-height: 45px;
@@ -93,7 +93,6 @@ ul {
   justify-content: start;
 }
 .sales_bill .research ul a {
-  /* font-family: Cairo; */
   padding: 12px 0 0 12px;
   font-size: 16px;
   font-weight: 700;
@@ -102,6 +101,7 @@ ul {
 }
 
 .sales_bill .links {
+  padding: 10px 0 !important;
   text-align: end;
   justify-content: end;
   width: 50%;
@@ -330,11 +330,10 @@ table thead tr th {
 }
 
 table tbody tr td input {
-  text-align: end;
+  text-align: start;
   padding: 0 8px;
   outline: none;
   border: none;
-  /* width: 204px; */
   height: 34px;
   border-radius: 8px;
   border: 1px solid #eaeaea;

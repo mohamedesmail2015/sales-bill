@@ -103,6 +103,7 @@ ul {
 }
 
 .sales_bill .links {
+  padding: 10px 0 !important;
   text-align: end;
   justify-content: end;
   width: 50%;
@@ -331,11 +332,10 @@ table thead tr th {
 }
 
 table tbody tr td input {
-  text-align: end;
+  text-align: start;
   padding: 0 8px;
   outline: none;
   border: none;
-  /* width: 204px; */
   height: 34px;
   border-radius: 8px;
   border: 1px solid #eaeaea;
