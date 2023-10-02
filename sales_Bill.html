@@ -15,8 +15,8 @@
     />
     <link rel="stylesheet" href="css/fontawesome.min.css" />
     <link rel="stylesheet" href="css/normalize.css" />
-    <!-- <link rel="stylesheet" href="css/master.css" /> -->
-    <link rel="stylesheet" href="css/master_rtl.css" />
+    <link rel="stylesheet" href="css/master.css" />
+    <!-- <link rel="stylesheet" href="css/master_rtl.css" /> -->
 
     <!-- google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -27,8 +27,8 @@
     />
 
     <!-- bootstrap -->
-    <!-- <link rel="stylesheet" href="css/bootstrap.min.css" /> -->
-    <link rel="stylesheet" href="css/bootstrap.rtl.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- <link rel="stylesheet" href="css/bootstrap.rtl.min.css" /> -->
 
     <title>Sales Bill</title>
   </head>
@@ -91,7 +91,72 @@
     <!-- Start Customers 2 -->
     <section class="customers">
       <div class="customers-select">
-        <p>العملاء</p>
+        <!-- Button trigger modal -->
+        <button
+          type="button"
+          data-bs-toggle="modal"
+          data-bs-target="#exampleModal"
+        >
+          <i class="fa-solid fa-plus"></i> العملاء
+        </button>
+
+        <!-- Modal -->
+        <div
+          class="modal fade"
+          id="exampleModal"
+          tabindex="-1"
+          aria-labelledby="exampleModalLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">انشاء عميل</h5>
+                <button
+                  type="button"
+                  class="modal_Close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                >
+                  <i class="fa-solid fa-circle-xmark"></i>
+                </button>
+              </div>
+              <div class="modal-body">
+                <div class="modal_data">
+                  <label>الاسم</label>
+                  <input type="text" />
+                </div>
+
+
+                <div class="modal_data">
+                  <label>الرقم الضريبي</label>
+                  <input type="number" />
+                </div>
+
+
+                <div class="modal_data">
+                  <label>الهاتف</label>
+                  <input type="number" />
+                </div>
+
+
+                <div class="modal_data">
+                  <label>البريد الالكتروني</label>
+                  <input type="email" />
+                </div>
+
+                <div class="modal_data">
+                  <label>العنوان</label>
+                  <textarea></textarea>
+                  <!-- <input type="text" /> -->
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="modal_save">حفظ</button>
+              </div>
+            </div>
+          </div>
+        </div>
         <select>
           <option selected>الفرع الرئيسي</option>
           <option value="1">One</option>
@@ -175,7 +240,7 @@
 
     <!-- Start table -->
 
-    <table class="table table-bordered ddddddddd">
+    <table class="table table-bordered">
       <thead>
         <tr>
           <th scope="col">اسم المنتج</th>
