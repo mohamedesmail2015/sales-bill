@@ -259,15 +259,6 @@ ul {
   color: #6d7d93;
 }
 
-.customers .research input {
-  text-align: start;
-  justify-content: start;
-  flex: 1 !important;
-  border: none;
-  outline: none;
-  background: linear-gradient(0deg, #eaeaea, #eaeaea),
-    linear-gradient(0deg, #f5f5f7, #f5f5f7);
-}
 .customers .customers-select .customers_date {
   display: flex;
   text-align: center;
@@ -289,6 +280,43 @@ ul {
   height: 33px;
   margin: auto 10px;
 }
+
+/* research_Products */
+.research_Products {
+  margin: 5px 30px 15px;
+  display: flex;
+  text-align: start;
+  justify-content: start;
+  padding: 5px 10px !important;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  width: 520px;
+  height: 43px;
+  margin-top: 35px !important;
+  background: linear-gradient(0deg, #eaeaea, #eaeaea),
+    linear-gradient(0deg, #f5f5f7, #f5f5f7);
+  border: 1px solid #eaeaea;
+}
+
+.research_Products input {
+  text-align: start;
+  justify-content: start;
+  flex: 1 !important;
+  border: none;
+  outline: none;
+  background: linear-gradient(0deg, #eaeaea, #eaeaea),
+    linear-gradient(0deg, #f5f5f7, #f5f5f7);
+}
+
+.research_Products img {
+  display: block;
+  margin: auto;
+  width: 17px;
+  height: 17px;
+  color: #6d7d93;
+}
+/* research_Products */
 
 /* End Customers 2 */
 
@@ -409,7 +437,6 @@ table tbody tr td .testing a {
   width: 150px;
   height: 34px;
   border-radius: 8px;
-  border: 1px;
   color: #231f20;
   background: linear-gradient(0deg, #eaeaea, #eaeaea),
     linear-gradient(0deg, #f5f5f7, #f5f5f7);
@@ -419,12 +446,80 @@ table tbody tr td .testing img {
   margin-left: 3px;
   width: 34px;
   height: 34px;
-  top: 418px;
-  left: 1537px;
   border-radius: 8px;
 }
 
 /* End table */
+
+/* Start total_amount */
+.total_amount {
+  padding: 5px;
+  display: flex;
+  /* flex-wrap: wrap; */
+  text-align: center;
+  justify-content: space-between;
+}
+.total_amount .amount p {
+  padding: 0 10px;
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 39px;
+  letter-spacing: 0em;
+  text-align: start;
+  color: #0066cc;
+}
+
+.total_amount .all_amount_details {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px;
+  text-align: center;
+  justify-content: space-between;
+}
+.total_amount .all_amount_details p {
+  margin: 0;
+  padding: 0 5px;
+  font-size: 13px;
+  color: #231f20;
+}
+
+.total_amount .all_amount_details {
+  display: flex;
+  text-align: center;
+  justify-content: start;
+}
+.total_amount .all_amount_details .amount_details input {
+  margin: 0 5px;
+  padding: 5px;
+  border-radius: 8px;
+  background: #ffffff;
+  border: 1px solid #eaeaea;
+  width: 117px;
+}
+
+.total_amount .includes_tax p {
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 19px;
+  letter-spacing: 0em;
+  color: #ff4e42;
+}
+.total_amount .includes_tax h2 {
+  width: 200px;
+  min-height: 84px;
+  padding-top: 25px;
+  border-radius: 8px;
+  border: 1px solid #eaeaea;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 27px;
+  letter-spacing: 0em;
+  color: #231f20;
+  background: linear-gradient(0deg, #eaeaea, #eaeaea),
+    linear-gradient(0deg, #f5f5f7, #f5f5f7);
+}
+
+/* End total_amount */
 
 /***********************************************************/
 /****************** End Sales Bill PAGE ********************/
@@ -581,7 +676,6 @@ table tbody tr td .testing img {
 /* Start table */
 .taxBill table {
   border-radius: 7px;
-
   text-align: center;
   justify-content: center;
   overflow: hidden !important;

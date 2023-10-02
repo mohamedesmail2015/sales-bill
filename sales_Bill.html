@@ -15,8 +15,8 @@
     />
     <link rel="stylesheet" href="css/fontawesome.min.css" />
     <link rel="stylesheet" href="css/normalize.css" />
-    <link rel="stylesheet" href="css/master.css" />
-    <!-- <link rel="stylesheet" href="css/master_rtl.css" /> -->
+    <!-- <link rel="stylesheet" href="css/master.css" /> -->
+    <link rel="stylesheet" href="css/master_rtl.css" />
 
     <!-- google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -27,8 +27,8 @@
     />
 
     <!-- bootstrap -->
-    <link rel="stylesheet" href="css/bootstrap.min.css" />
-    <!-- <link rel="stylesheet" href="css/bootstrap.rtl.min.css" /> -->
+    <!-- <link rel="stylesheet" href="css/bootstrap.min.css" /> -->
+    <link rel="stylesheet" href="css/bootstrap.rtl.min.css" />
 
     <title>Sales Bill</title>
   </head>
@@ -161,17 +161,21 @@
           <option value="3">Three</option>
         </select>
       </div>
-
-      <div class="research">
-        <input type="text" placeholder="ابحث عن منتجات..." />
-        <img src="imgs/salesBill/research.png" alt="research" />
-      </div>
     </section>
     <!-- End Customers 2 -->
 
+    <hr />
+
+    <!-- research_Products -->
+    <div class="research_Products">
+      <input type="text" placeholder="ابحث عن منتجات..." />
+      <img src="imgs/salesBill/research.png" alt="research" />
+    </div>
+    <!-- research_Products -->
+
     <!-- Start table -->
 
-    <table class="table table-bordered">
+    <table class="table table-bordered ddddddddd">
       <thead>
         <tr>
           <th scope="col">اسم المنتج</th>
@@ -190,8 +194,8 @@
         <tr>
           <td>
             <div class="testing">
-              <a href="#">testing prouct</a>
               <img src="imgs/salesBill/Rectangle39833.png" alt="" />
+              <a href="#">testing prouct</a>
             </div>
           </td>
 
@@ -236,8 +240,8 @@
         <tr>
           <td>
             <div class="testing">
-              <a href="#">testing prouct</a>
               <img src="imgs/salesBill/Rectangle39833.png" alt="" />
+              <a href="#">testing prouct</a>
             </div>
           </td>
 
@@ -282,8 +286,8 @@
         <tr>
           <td>
             <div class="testing">
-              <a href="#">testing prouct</a>
               <img src="imgs/salesBill/Rectangle39833.png" alt="" />
+              <a href="#">testing prouct</a>
             </div>
           </td>
 
@@ -328,6 +332,54 @@
       </tbody>
     </table>
     <!-- End table -->
+
+    <!-- total amount -->
+    <div class="total_amount">
+      <div class="amount">
+        <p>اجمالي المبلغ</p>
+        <div class="all_amount_details">
+          <div class="amount_details">
+            <p>المجموع الفرعي</p>
+            <input type="text" placeholder="00" readonly />
+          </div>
+
+          <div class="amount_details">
+            <p>الخصم</p>
+            <input type="text" placeholder="00" readonly />
+          </div>
+          <div class="amount_details">
+            <p>الإجمالي بعد الخصم</p>
+            <input type="text" placeholder="00" readonly />
+          </div>
+          <div class="amount_details">
+            <p>خصم الكوبون</p>
+            <input type="text" placeholder="00" readonly />
+          </div>
+          <div class="amount_details">
+            <p>خصم الكوبون</p>
+            <input type="text" placeholder="00" readonly />
+          </div>
+          <div class="amount_details">
+            <p>ضريبة القيمة المضافة</p>
+            <input type="text" placeholder="00" readonly />
+          </div>
+          <div class="amount_details">
+            <p>تكلفة الشحن</p>
+            <input type="text" placeholder="00" readonly />
+          </div>
+          <div class="amount_details">
+            <p>الصافي</p>
+            <input type="text" placeholder="00" readonly />
+          </div>
+        </div>
+      </div>
+
+      <div class="includes_tax">
+        <p>الإجمالي شامل الضريبه المضافه</p>
+        <h2>00</h2>
+      </div>
+    </div>
+    <!-- total amount -->
 
     <script src="js/bootstrap.min.js"></script>
   </body>
