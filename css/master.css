@@ -38,28 +38,76 @@ ul {
 /****************** Start Sales Bill PAGE *****************/
 /***********************************************************/
 
-/***********************************************************/
-/****************** Start Sales Bill PAGE *****************/
-/***********************************************************/
-
 .sales_bill {
   display: flex;
   flex-wrap: wrap !important;
-  text-align: center;
-  justify-content: space-between;
+  text-align: center !important;
+  justify-content: space-between !important;
   background: #f5f5f7;
   padding: 15px !important;
   overflow: hidden !important;
 }
 
+.sales_bill .research {
+  text-align: start;
+  justify-content: start;
+  width: 50%;
+}
+.sales_bill .research .title {
+  padding: 0 12px !important;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 45px;
+  color: #0066cc;
+}
+.sales_bill .research .input_search {
+  display: flex;
+  text-align: start !important;
+  justify-content: space-between;
+  width: 99%;
+  height: 43px;
+  padding: 5px 12px;
+  border-radius: 8px;
+  background: #ffffff;
+  border: 1px solid #eaeaea;
+}
+.sales_bill .research .input_search input {
+  text-align: start;
+  justify-content: start;
+  flex: 1;
+  border: none;
+  outline: none;
+}
+.sales_bill .research .input_search img {
+  display: block;
+  margin: auto;
+  width: 17px;
+  height: 17px;
+  color: #6d7d93;
+}
+.sales_bill .research ul {
+  padding: 12px 0 !important;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: start;
+  justify-content: start;
+}
+.sales_bill .research ul a {
+  /* font-family: Cairo; */
+  padding: 12px 0 0 12px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  color: #6d7d93;
+}
+
 .sales_bill .links {
+  text-align: end;
+  justify-content: end;
   width: 50%;
 }
 
 .sales_bill .links .controlBoard {
-  display: block;
-  width: 65% !important;
-  /* height: 52px !important; */
   padding: 10px 5px;
   margin-bottom: 15px;
   border-radius: 8px;
@@ -71,17 +119,15 @@ ul {
 .sales_bill .links ul {
   display: flex;
   flex-wrap: wrap;
-  text-align: center;
-  justify-content: space-between;
-  padding: 10px !important;
+  text-align: end;
+  justify-content: end;
   margin: 10px !important;
-  width: 65% !important;
+  width: 100%;
 }
 
 .sales_bill .discount {
   display: block;
   height: 40px;
-  padding: 5px 20px !important;
   border-radius: 8px;
   border: 1px;
   border: 1px solid #cbcbcb;
@@ -92,16 +138,12 @@ ul {
 .sales_bill .discount img {
   width: 17.67px;
   height: 18.6px;
-  top: 83.23px;
-  left: 180.26px;
 }
 .sales_bill .discount span {
-  /* font-family: Cairo; */
   font-size: 15px;
   font-weight: 700;
   line-height: 19px;
   letter-spacing: 0em;
-  text-align: right;
   color: #575757;
 }
 
@@ -123,12 +165,10 @@ ul {
   left: 180.26px;
 }
 .sales_bill .salesStatus span {
-  /* font-family: Cairo; */
   font-size: 15px;
   font-weight: 700;
   line-height: 19px;
   letter-spacing: 0em;
-  text-align: right;
   color: #575757;
 }
 .sales_bill .draft {
@@ -144,68 +184,17 @@ ul {
   height: 20px;
 }
 
-.sales_bill .research {
-  text-align: end;
-  justify-content: end;
-  width: 50%;
-}
-.sales_bill .research .title {
-  padding: 0 12px !important;
-  /* font-family: Cairo; */
-  font-size: 24px;
-  font-weight: 700;
-  line-height: 45px;
-  color: #0066cc;
-}
-.sales_bill .research .input_search {
-  display: flex;
-  text-align: end !important;
-  justify-content: space-between;
-  width: 99%;
-  height: 43px;
-  padding: 5px 12px;
-  border-radius: 8px;
-  background: #ffffff;
-  border: 1px solid #eaeaea;
-}
-.sales_bill .research .input_search input {
-  text-align: end;
-  justify-content: start;
-  flex: 1;
-  border: none;
-  outline: none;
-}
-.sales_bill .research .input_search img {
-  display: block;
-  margin: auto;
-  width: 17px;
-  height: 17px;
-  color: #6d7d93;
-}
-.sales_bill .research ul {
-  padding: 12px !important;
-  display: flex;
-  flex-wrap: wrap;
-  text-align: center;
-  justify-content: end;
-}
-.sales_bill .research ul a {
-  /* font-family: Cairo; */
-  padding: 12px 0 0 12px;
-  font-size: 16px;
-  font-weight: 700;
-  line-height: 19px;
-  color: #6d7d93;
-}
-
 @media (max-width: 1200px) {
   .sales_bill .links {
+    display: block;
+    text-align: end !important;
+    justify-content: end !important;
     width: 100%;
   }
 
   .sales_bill .research {
-    text-align: end;
-    justify-content: end;
+    text-align: start;
+    justify-content: start;
     width: 100%;
   }
 }
@@ -215,7 +204,7 @@ ul {
   display: flex;
   flex-wrap: wrap;
   text-align: center;
-  justify-content: end;
+  justify-content: start;
   padding: 7px;
   margin: 7px;
 }
@@ -229,14 +218,14 @@ ul {
   font-weight: 500;
   line-height: 19px;
   letter-spacing: 0em;
-  text-align: right;
+  text-align: start !important;
+  justify-content: start !important;
   color: #231f20;
   padding: 0 0 3px;
   margin: 0;
   text-align: end;
 }
 .customers .customers-select select {
-  text-align: start;
   padding: 5px 10px !important;
   border-radius: 8px;
   border: none;
@@ -250,6 +239,7 @@ ul {
 .customers .research {
   display: flex;
   text-align: start;
+  justify-content: start;
   padding: 5px 10px !important;
   border-radius: 8px;
   border: none;
@@ -270,7 +260,7 @@ ul {
 }
 
 .customers .research input {
-  text-align: end;
+  text-align: start;
   justify-content: start;
   flex: 1 !important;
   border: none;
