@@ -93,12 +93,15 @@ ul {
   text-align: start;
   justify-content: start;
 }
-.sales_bill .research ul a {
+.sales_bill .research ul button {
   padding: 12px 0 0 12px;
   font-size: 16px;
   font-weight: 700;
   line-height: 19px;
   color: #6d7d93;
+  outline: none !important;
+  border: none !important;
+  background: none;
 }
 
 .sales_bill .links {
@@ -351,7 +354,7 @@ ul {
   display: flex;
   text-align: center;
   justify-content: space-between;
-  padding: 5px 10px;
+  padding: 10px;
   border-radius: 8px;
   background: #ffffff;
   border: 1px solid #eaeaea;
@@ -747,9 +750,8 @@ table tbody tr td .testing img {
   width: 269px;
   border-radius: 5px;
   border: 2px;
-  background: linear-gradient(0deg, #eaeaea, #eaeaea),
-    linear-gradient(0deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1));
-  border: 2px solid #eaeaea;
+  background: #ffffff;
+  border: 1px solid #eaeaea;
 }
 .invoice_to .to p {
   /* font-family: Cairo; */
@@ -764,6 +766,7 @@ table tbody tr td .testing img {
 /* Start table */
 .taxBill table {
   border-radius: 7px;
+  min-height: 450px;
   text-align: center;
   justify-content: center;
   overflow: hidden !important;
@@ -867,7 +870,7 @@ table tbody tr td .testing img {
   margin: 5px auto;
   border: 1px solid #0d99ff;
 }
-.thermalBill .head img {
+.thermalBill .head .thermalBill_logo {
   display: block;
   text-align: center;
   width: 108.88px;
@@ -896,11 +899,12 @@ table tbody tr td .testing img {
   letter-spacing: 0em;
   color: #231f20;
 }
-.thermalBill .head .Line {
-  width: 259px;
-  height: 4px;
-  padding: 1px;
-  margin: 1px auto;
+.thermalBill .head .Line_img {
+  display: block;
+  width: 330px !important;
+  height: 4px !important;
+  padding: 1px !important;
+  margin: 1px auto !important;
 }
 
 .thermalBill .head .Date_Branch {
@@ -972,9 +976,9 @@ table tbody tr td .testing img {
   padding: 13px 7px 0 7px;
 }
 
-.thermalBill .head .thermalBill {
+.thermalBill .head .img_code {
+  display: block;
   width: 110px;
   height: 120px;
-  top: 711px;
-  left: 102px;
+  margin: 7px auto;
 }
