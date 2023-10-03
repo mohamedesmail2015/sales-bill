@@ -267,6 +267,7 @@ ul {
   display: block;
   background: none;
 }
+
 .customers .customers-select select {
   padding: 5px 10px !important;
   border-radius: 8px;
@@ -317,11 +318,11 @@ ul {
   outline: none;
   border: none;
 }
-.customers .customers-select .customers_date img {
+/* .customers .customers-select .customers_date img {
   width: 33px;
   height: 33px;
   margin: auto 10px;
-}
+} */
 
 /* research_Products */
 .research_Products {
