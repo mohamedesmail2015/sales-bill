@@ -70,12 +70,76 @@
                 <img src="imgs/salesBill/Vector2.png" alt="المسوده" />
               </a>
             </li>
+
             <li>
-              <a href="#" class="salesStatus">
+              <!-- Button trigger modal -->
+              <button
+                type="button"
+                data-bs-toggle="modal"
+                data-bs-target="#exampleModal"
+                class="salesStatus"
+              >
                 <span>حالة المبيعات</span>
                 <img src="imgs/salesBill/vector1.png" alt="حالة المبيعات" />
-              </a>
+              </button>
+
+              <!-- Modal -->
+              <div
+                class="modal fade"
+                id="exampleModal"
+                tabindex="-1"
+                aria-labelledby="exampleModalLabel"
+                aria-hidden="true"
+              >
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">
+                        حاله المبيعات
+                      </h5>
+                      <button
+                        type="button"
+                        class="modal_Close"
+                        data-bs-dismiss="modal"
+                        aria-label="Close"
+                      >
+                        <i class="fa-solid fa-circle-xmark"></i>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <div class="modal_data">
+                        <label>حاله المبيعات</label>
+                        <select>
+                          <option selected>اختر حاله فاتوره المبيعات</option>
+                          <option value="1">One</option>
+                          <option value="2">Two</option>
+                          <option value="3">Three</option>
+                        </select>
+                      </div>
+
+                      <div class="modal_data">
+                        <label>تكلفه الشحن</label>
+                        <input type="number" placeholder="9" />
+                      </div>
+
+                      <div class="modal_data">
+                        <label>العمله</label>
+                        <select>
+                          <option selected>اختر العمله</option>
+                          <option value="1">One</option>
+                          <option value="2">Two</option>
+                          <option value="3">Three</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="modal_save">حفظ</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </li>
+
             <li>
               <a href="#" class="discount">
                 <span> اضافة خصم </span>
@@ -127,18 +191,15 @@
                   <input type="text" />
                 </div>
 
-
                 <div class="modal_data">
                   <label>الرقم الضريبي</label>
                   <input type="number" />
                 </div>
 
-
                 <div class="modal_data">
                   <label>الهاتف</label>
                   <input type="number" />
                 </div>
-
 
                 <div class="modal_data">
                   <label>البريد الالكتروني</label>
