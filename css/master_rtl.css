@@ -219,17 +219,21 @@ ul {
   background: green;
   padding: 4px;
 }
-.customers .customers-select .modal_Close i {
+.modal_Close {
   color: #ffffff;
   border-radius: 3px;
   background: red;
-  padding: 4px;
+  padding: 4px 7px;
+  outline: none;
+  border: none;
 }
-.customers .customers-select .modal_save {
-  color: #ffffff;
+.modal_save {
+  color: #ffffff !important;
   border-radius: 3px;
-  background: green;
-  padding: 4px;
+  background: green !important;
+  outline: none;
+  border: none;
+  padding: 4px 8px !important;
 }
 
 .modal-body .modal_data {
@@ -238,12 +242,52 @@ ul {
   text-align: start !important;
   justify-content: start !important;
 }
+.modal-body .modal_discount {
+  padding: 5px;
+  width: 100% !important;
+  display: flex;
+  text-align: start !important;
+  justify-content: start !important;
+}
+.form-check {
+  margin: 7px;
+  padding: 5px;
+  width: 100% !important;
+  display: flex;
+  text-align: start !important;
+  justify-content: start !important;
+}
+.form-check label {
+  color: #0665c8;
+}
 .modal-body .modal_data label {
   margin-bottom: 7px;
+  padding: 0 5px;
   display: block;
 }
+
 .modal-body .modal_data input,
+.modal-body .modal_discount input,
 .modal-body .modal_data textarea {
+  padding: 5px 10px;
+  outline: none;
+  border-radius: 8px;
+  width: 100% !important;
+  border: 1px solid #eaeaea !important;
+}
+.modal-body .modal_discount button {
+  margin: 0 5px;
+  outline: none;
+  border: none;
+  color: #ffffff;
+  background: #0665c8;
+  border-radius: 8px;
+}
+
+.modal-body select {
+  display: block;
+  padding: 5px;
+  width: 100% !important;
   padding: 5px 10px;
   outline: none;
   border-radius: 8px;
@@ -268,6 +312,7 @@ ul {
   display: block;
   background: none;
 }
+
 .customers .customers-select select {
   padding: 5px 10px !important;
   border-radius: 8px;
